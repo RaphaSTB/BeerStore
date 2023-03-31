@@ -16,9 +16,18 @@
                 <img id="beer" src="./images/beer.svg">
             <div id="background">
                 <h2 id="question">Você é maior de 18 anos?</h2>
-                <button class="button1" type="button">Sim</button>
-                <button class="button2" type="button">Não</button>
+                <button onclick="yes()" class="button1">Sim</button>
+                <button onclick="no()" class="button2">Não</button>
         </main>    
         </div>    
+    <script>
+   function yes(){ 
+    window.location.href='nextpage.html'
+    console.log('yes')
+}
+function no(){ 
+    console.log('no')
+}
+   </script>
     </body>
 </html>
